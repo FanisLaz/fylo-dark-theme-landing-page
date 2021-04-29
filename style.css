@@ -1,0 +1,671 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    overflow-x: hidden;
+
+    /* background-image: url("bg-mobile.png");
+    background-repeat: no-repeat; */
+  }
+  p{
+    color: white;
+  }
+
+  .card {
+    position: relative;
+    margin: auto;
+    /* margin-left: 1em;
+    margin-right: 1em; */
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: hsl(218, 28%, 13%);
+
+    /* border-radius: 10px; */
+    /* box-shadow: 0 9px 12px 0 rgba(0, 0, 0, 0.6);*/   
+    min-height: calc(100vh - 40px); 
+  }
+
+  .main-menu{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: hsl(217, 28%, 15%);
+  }
+  .logo{
+    position: relative;
+    top: 2.5em;
+    left: 1em;   
+    width: 100px;
+  }
+  .options{
+    position: relative;
+    top: -10%;
+    left: 65%;
+  }
+  .option1{
+    position: relative;
+    top: 1.4em;
+    right: 5em;
+  }
+  .option3{
+    position: relative;
+    top: -1.4em;
+    left: 4em;
+  }
+  .opt{
+    color: hsl(0, 0%, 100%, 0.8);
+    text-decoration: none;
+  }
+  .opt:hover{
+    color: hsl(0, 0%, 100%, 1);
+    text-decoration: underline;
+  }
+
+  .intro-card{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    top: 0em;
+    right: 0;
+    background-color: hsl(217, 28%, 15%);
+  }
+
+  .introimg{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    right: 0;
+    width: 300px;
+    z-index: 10;
+  }
+  .waveimgdiv{
+    background-image: url("bg-curvy-mobile.svg");
+    background-position: top;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -1.5em;
+    right: 0.5em;
+    width: 400px;
+    z-index: 1;
+  }
+
+  .first-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: -5em;
+    z-index: 11;
+  }
+  .first-title-text{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 21px;
+    left: 0em;
+    width: 80%;
+  }
+  .title{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+  }
+   .title-description{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1em;
+    width: 82%;    
+    font-weight: 400;
+  }
+  .GS-btn{
+    position: relative;
+    text-align: center;
+    top: 3em;
+  }
+  .btn{
+    border-radius: 40px;
+    width: 220px;
+    height: 45px;
+    padding: 0;
+    border: none;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 100%);
+    color: white;
+    font-weight: 700;
+  }
+  .btn:hover{
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%) 0%, hsl(176, 68%, 64%) 100%);
+  }
+
+  .second-card {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 15em;
+  }
+  .img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: -2em;
+    right: 0;
+    width: 80px;
+  }
+
+  .third-card{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 10em;
+  }
+  .fourth-card{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 10em;
+  }
+  .fifth-card{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 10em;
+  }
+  .sixth-card{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 100%;
+    margin-top: 10em;
+  }
+  .card6-img{
+    position: relative;
+    display: block;
+
+    left: 1em;
+    bottom: 3em;
+    width: 300px;
+  }
+  .sixth-title-text{
+    position: relative;
+    text-align: left;
+    left: 1.3em;    
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .sixth-description-text{
+    position: relative;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1em;
+    width: 88%;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .seehow{
+    position: relative;
+    text-align: left;
+    width: 250px;
+    top: 2em;
+    left: 1.5em;
+  }
+  #opt{
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+    padding-right: 25px;
+    padding-bottom: 6px;
+  }
+  #opt:hover{
+    color:white;
+    border-bottom: 2px solid white;
+  }
+  .arrow{
+    position: relative;
+    top: 0.2em;
+    right: 1.2em;
+  }
+
+  .testimonies{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 15em;
+  }
+  .quotes{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0em;
+    left: -10em;
+    width: 25px;
+    height: 20px;
+  }
+  .testimony1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(219, 30%, 18%);
+    width: 320px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .testimony2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 2em;
+    background-color: hsl(219, 30%, 18%);
+    width: 320px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .testimony3{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 4em;
+    background-color: hsl(219, 30%, 18%);
+    width: 320px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .text{
+    position: relative;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    font-size: 12px;
+  }
+  .avatar{
+    position: relative;
+    top: -1.7em;
+    left: 0.5em;
+    width: 30px;
+    border-radius: 50%;
+  }
+  .username{
+    position: relative;
+    top: 0.7em;
+    left: 3.6em;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+  }
+  .usertitle{
+    position: relative;
+    top: 0.4em;
+    left: 2.1em;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .final-card{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 12em;
+    background-color: hsl(219, 30%, 18%);
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: 0 9px 12px 0 rgba(0, 0, 0, 0.6);
+    z-index: 12;
+  }
+  #final-title{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;    
+    font-weight: 700;
+    font-size: 18px;
+    top: 2em;
+  }
+  #final-description{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;    
+    font-weight: 400;
+    top: 4em;
+  }
+  .textarea{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 6em;
+  }
+  .area{
+    padding: 0;
+    outline: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 80px;
+  }
+  input{
+    color: rgba(0,0,0,0.5);
+  }
+  input[type=text], select{
+    padding: 12px 40px;
+    border: none;
+    outline: none;
+  }
+  .GS-btn2{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 8em;
+  }
+  .btn2{
+    border-radius: 40px;
+    width: 300px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 100%);
+    color: white;
+    font-weight: 700;
+  }
+  .btn2:hover{
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%) 0%, hsl(176, 68%, 64%) 100%);
+  }
+
+
+  .footer-card{
+    position: relative;
+    top: 0em;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    background-color: hsl(216, 53%, 9%); 
+  }
+  .footer-logo{
+    position: relative;
+    left: 3em;
+  }
+  .location{
+    position: relative;
+    top: 2em;
+    left: 3em;
+  }
+  .location-text{
+    position: relative;
+    top: -2em;
+    left: 3em;
+    width: 250px;
+  }
+  .phone{
+    position: relative;
+    top: 2em;
+    left: 3em;
+  }
+  .phone-text{
+    position: relative;
+    top: -2em;
+    left: 3em;
+    width: 250px;
+  }
+  .mail{
+    position: relative;
+    top: 2em;
+    left: 3em;
+  }
+  .mail-text{
+    position: relative;
+    top: -2em;
+    left: 3em;
+    width: 250px;
+  }
+  .actions1{
+    position: relative;
+    top: 5em;
+    left: 3em;
+  }
+  .actions2{
+    position: relative;
+    top: 7em;
+    left: 3em;
+  }
+  .socials{
+    position: relative;
+    width: 35px;
+    left: 12em;
+    top: 9em;
+    background-color: white;
+    border-radius: 50%;
+    padding: 6px;
+  }
+  .cardf-btnfb{
+    position: relative;
+    right: 4em;
+    top: 2.8em;
+  }  
+  .cardf-btnig{
+    position: relative;
+    left: 4em;
+    top: -2.8em;
+  }
+
+  .attribution{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 10em;
+  }
+
+
+
+  @media screen and (min-width: 1440px) {
+
+
+    .logo{
+    left: 5em;   
+    }
+    .options{
+      left: 80%;
+    }
+    .option1{
+      right: 7em;
+    }
+    .option3{
+      left: 6em;
+    }
+
+    .introimg{
+      width: 500px;
+    }
+    /* .waveimgdiv{
+      background-image: url("bg-curvy-desktop.svg");
+      background-position: top;
+      background-size: 1440px 300px;
+      background-repeat: no-repeat;
+    } */
+
+    .intro-card{
+      height: 550px;
+    }
+    .first-title-text{
+      width: 30%;
+    }
+    .title-description{
+      width: 26%;    
+    }
+
+    .second-card {
+      width: 100%;
+      top: 0;
+      right: 20em;
+    }
+    .third-card{
+      width: 100%;
+      top: -23em;
+      left: 20em;
+    }
+    .fourth-card{
+      width: 100%;
+      top: -23em;
+      right: 20em;
+    }
+    .fifth-card{
+      width: 100%;
+      top: -42.8em;
+      left: 20em;
+    }
+    .description-text{
+      margin-left: auto;
+      margin-right: auto;
+      width: 350px;
+    }
+
+    .sixth-card{
+      top: -35em;
+    }
+    .card6-img{
+      left: -25em;
+      top: -5em;
+      width: 550px;
+    }
+    .sixth-title-text{
+      left: 12em;    
+      top: -18em;
+      width: 250px;
+      font-size: 24px;
+    }
+    .sixth-description-text{
+      left: 20.5em;    
+      top: -29em;
+      width: 450px;
+    }
+    .seehow{
+      top: -27em;
+      left: 20.5em;
+    }
+
+    .testimonies{
+      top: -70em;
+    }
+    .quotes{
+      top: 13.2em;
+      left: -35.5em;
+      width: 35px;
+      height: 30px;
+    }
+    .testimony1{
+      top: 12.7em;
+      right: 25em;
+    }
+    .testimony3{
+      top: -8.7em;
+      left: 25em;
+    }
+
+    .final-card{
+      top: -60em;
+      width: 830px;
+      height: 250px;
+    }
+    .final-text{
+      width: 620px;
+    }
+    .textarea{
+      top: 6em;
+      right: 10em;
+    }
+    .area{
+      width: 450px;
+    }
+    .GS-btn2{
+      top: 2.4em;
+      left: 15em;
+    }
+    .btn2{
+      width: 200px;
+    }
+
+    .footer-card{
+      padding-bottom: 10px;
+      top: -70em;
+    }
+    .footer-logo{
+      left: 6em;
+    }
+    .location{
+      top: 2em;
+      left: 6em;
+    }
+    .location-text{
+      width: 300px;
+    }
+    .phone{
+      top: -4em;
+      left: 40em;
+    }
+    .mail{
+      top: -3.6em;
+      left: 40em;
+    }
+    .actions1{
+      top: -11.5em;
+      left: 60em;
+      line-height: 53px;
+    }
+    .actions2{
+      top: -26.5em;
+      left: 70em;
+      line-height: 53px;
+    }
+    .socials{
+      top: -40em;
+      left: 90em;
+    }
+    .cardf-btnfb{
+      position: relative;
+      right: 4em;
+      top: 2.8em;
+    }  
+    .cardf-btnig{
+      position: relative;
+      left: 4em;
+      top: -2.8em;
+    }
+
+    .attribution{
+      top: -20em;
+    }
+  }
